@@ -1,0 +1,10 @@
+PASS dpo_zero_margin_is_ln2
+PASS grad_wrt_chosen_matches (-w)
+PASS grad_wrt_rejected_matches (+w)
+PASS logZ_cancels
+PASS weight_large_when_wrong
+PASS weight_small_when_confident
+PASS dpo_margin_grows_with_length
+PASS simpo_margin_constant_in_length
+PASS simpo_gamma_shifts_loss
+length simulation: {'lens': [5, 10, 20, 40, 80], 'dpo_margin': [0.01, 0.02, 0.04, 0.08, 0.16], 'simpo_margin': [0.04, 0.04, 0.04, 0.04, 0.04]}

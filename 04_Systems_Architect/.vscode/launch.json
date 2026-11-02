@@ -1,0 +1,8 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Run all tests", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/run_tests.py", "console": "integratedTerminal"},
+    {"name": "Verify math (numpy only)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/verify_math_numpy.py", "console": "integratedTerminal"},
+    {"name": "Engine: all demos (needs torch)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/ps04_engine.py", "args": ["--demo", "all"], "console": "integratedTerminal"}
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "_note": "TEMPLATE ONLY. These numbers are placeholders to show the file format. Replace with your own measured scores before using the audit.",
+  "before": {"MMLU": 0.0, "GSM8K": 0.0, "HumanEval": 0.0, "refusal_harmful_rate": 0.0},
+  "after":  {"MMLU": 0.0, "GSM8K": 0.0, "HumanEval": 0.0, "refusal_harmful_rate": 0.0}
+}
